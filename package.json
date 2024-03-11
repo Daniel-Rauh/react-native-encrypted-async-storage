@@ -1,0 +1,36 @@
+{
+  "name": "react-native-encrypted-async-storage",
+  "version": "1.0.0",
+  "description": "Encrypted async storage for use with expo react native",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gts lint",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "npm.cmd run compile",
+    "pretest": "npm.cmd run compile",
+    "posttest": "npm.cmd run lint"
+  },
+  "keywords": [
+    "Encryption",
+    "Async Storage",
+    "React Native",
+    "Expo"
+  ],
+  "author": "Daniel Rauh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.1",
+    "@types/node": "20.8.2",
+    "gts": "^5.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.2.0"
+  },
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "@react-native-async-storage/async-storage": "^1.19.4",
+    "crypto-es": "^2.1.0",
+    "expo-secure-store": "^12.5.0"
+  }
+}
