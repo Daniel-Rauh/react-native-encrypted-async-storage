@@ -1,5 +1,5 @@
 {
-  "name": "react-native-encrypted-async-storage",
+  "name": "@daniel_rauh/react-native-encrypted-async-storage",
   "version": "1.0.0",
   "description": "Encrypted async storage for use with expo react native",
   "main": "./dist/index.js",
